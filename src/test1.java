@@ -9,7 +9,7 @@ public class test1 {
 	public void ss() throws IllegalAccessException, InvocationTargetException{
 		user us = new user();
 		 
-		
+		 
 		BeanUtils.copyProperty(us, "name", "jakc");
 		
 		System.out.println(us.getName());

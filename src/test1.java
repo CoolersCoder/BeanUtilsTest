@@ -8,6 +8,7 @@ public class test1 {
 	@Test
 	public void ss() throws IllegalAccessException, InvocationTargetException{
 		user us = new user();
+		 
 		
 		BeanUtils.copyProperty(us, "name", "jakc");
 		
